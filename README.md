@@ -6,7 +6,7 @@
 
 https://www.gmeloweb.com.br/backend-challenge-pleno/
 
-## Projeto para o desenvolvimento de um site
+## Projeto para o desenvolvimento de um crud
 
 - O projeto consiste na criação de um CRUD com a marca de uma cliente existente.
 
