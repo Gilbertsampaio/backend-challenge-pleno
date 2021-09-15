@@ -23,6 +23,7 @@ https://www.gmeloweb.com.br/backend-challenge-pleno/
 - Cadastro, edição e exclusão de tarefas
 - Listagem de tarefas
 - listagem de colaboradores
+- Só é possível associar 03 tarefas para cada colaborador
 
 ## Instalação do Banco de Dados
 
@@ -38,4 +39,3 @@ https://www.gmeloweb.com.br/backend-challenge-pleno/
 - 1º Abra o Git, defina o diretório onde ficará o projeto e escreva o comando:
 
 * git clone https://github.com/Gilbertsampaio/backend-challenge-pleno.git
-
