@@ -6,9 +6,9 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'mysql.gmeloweb.com.br',
-	'username' => 'gmelowebcombr',
-	'password' => 'gmos7380',
+	'hostname' => 'localhost',
+	'username' => 'root',
+	'password' => '',
 	'database' => 'gmelowebcombr',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',

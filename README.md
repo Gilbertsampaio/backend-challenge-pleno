@@ -1,37 +1,38 @@
 <p align="center"><a href="https://www.gmeloweb.com.br" target="_blank"><img src="https://www.gmeloweb.com.br/images/logo-proposta.png" width="400"></a></p>
 
-# Backend Challenge Pleno
+# Frontend Challenge Pleno
 
-## Link para acessar o sistema
+## Link para acessar exemplo do site
 
-https://www.gmeloweb.com.br/backend-challenge-pleno/
+https://www.gmeloweb.com.br/frontend-challenge-pleno/
 
-## Projeto para o desenvolvimento de um crud
+## Projeto para o desenvolvimento de um site
 
-- O projeto consiste na criação de um CRUD com a marca de uma cliente existente.
+- O projeto consiste na criação de uma website seguindo o PSD do cliente.
 
 ## Ferramentas Utilizadas
 
 - Boostrap;
-- Codeigniter 4;
+- Codeigniter 2.2.6;
 - Folha de estilo criada do zero;
 - Plugins JS;
+- Plugins JQUERY-MASK
 - Pligins materialdesignicons.css
 
 ## Funcionalidades adicionadas
 
-- Cadastro, edição e exclusão de tarefas
-- Listagem de tarefas
-- listagem de colaboradores
+- Paginação de Slides na primeira sessão
+- Abertura de 02 modais na terceira sessão do site
+- Cadastramento de email para recebimento de newsletter na quarta sessão
 
 
 ## Responsividade
 
-- O sistema está adaptado para todos os tipos de dispositivos moveis e desktop
+- O site está adaptado para todos os tipos de dispositivos moveis e desktop
 
 ## Instruções para clonar e rodar Localhost
 
 - 1º Abra o Git, defina o diretório onde ficará o projeto e escreva o comando:
 
-* git clone https://github.com/Gilbertsampaio/backend-challenge-pleno.git
+* git clone https://github.com/Gilbertsampaio/frontend-challenge-pleno.git
 
