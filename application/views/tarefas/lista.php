@@ -64,12 +64,12 @@ include APPPATH . "/views/templates/header.php";
 
 
                                     echo "<tr>";
-                                    echo "<td>" . $tarefa['nome_tarefa'] . "</td>";
-                                    echo "<td class='center text-" . $label . "'>" . $prioridades[$tarefa['prioridade']] . "</td>";
-                                    echo "<td class='center text-" . $labelS . "'>" . $status[$tarefa['status']] . "</td>";
-                                    echo "<td class='center'>" . $tarefa['nome'] . "</td>";
-                                    echo "<td class='center' style='width:60px'><a href='tarefas/editar/" . $id . "' class='btn btn-primary'><i style='font-size:14px' class='mdi mdi-pencil'></i></a></td>";
-                                    echo "<td class='center'style='width:60px'><button onclick='excluir(" . $id . ", \"" . $tarefa['nome_tarefa'] . "\")' class='btn btn-danger'><i style='font-size:14px' class='mdi mdi-delete'></i></button></td>";
+                                    echo "<td style='min-width:250px'>" . $tarefa['nome_tarefa'] . "</td>";
+                                    echo "<td style='min-width:150px' class='center text-" . $label . "'>" . $prioridades[$tarefa['prioridade']] . "</td>";
+                                    echo "<td style='white-space:nowrap;min-width:100px' class='center text-" . $labelS . "'>" . $status[$tarefa['status']] . "</td>";
+                                    echo "<td style='min-width:250px' class='center'>" . $tarefa['nome'] . "</td>";
+                                    echo "<td class='center' style='min-width:60px'><a href='tarefas/editar/" . $id . "' class='btn btn-primary'><i style='font-size:14px' class='mdi mdi-pencil'></i></a></td>";
+                                    echo "<td class='center'style='min-width:60px'><button onclick='excluir(" . $id . ", \"" . $tarefa['nome_tarefa'] . "\")' class='btn btn-danger'><i style='font-size:14px' class='mdi mdi-delete'></i></button></td>";
                                     echo "</tr>";
                                 }
                                 ?>
