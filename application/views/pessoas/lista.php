@@ -17,14 +17,17 @@ include APPPATH . "/views/templates/header.php";
                                 <tr>
                                     <th>Nome Pessoa</th>
                                     <th>Tarefas</th>
+                                   
                                 </tr>
                             </thead>
                             <tbody>
                                 <?php
                                 foreach ($pessoas as $pes) {
+  
                                     echo "<tr>";
                                     echo "<td>" . $pes['nome'] . "</td>";
                                     echo "<td class='center'>" . $pes['tarefas'] . "</td>";
+                                    echo "</tr>";
                                 }
                                 ?>
                             </tbody>
