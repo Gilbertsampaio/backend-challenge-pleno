@@ -7,7 +7,7 @@ include APPPATH."/views/templates/header.php";
     <section class="home">
         <div class="col-xxl-8 px-4">
             <div class="row flex-lg-row-reverse align-items-center">
-                <div class="col-10 col-sm-8 col-lg-8" style="margin-top: 0px;">
+                <div class="col-10 col-sm-8 col-lg-8" style="margin-top: -10px;">
                     <img src="<?=base_url();?>/assets/img/fundo-coca.jpg" class="img-fluid">
                 </div>
                 <div class="col-lg-4" style="text-align: left; margin-top:-250px; padding-right: 80px; padding-top:30px">
