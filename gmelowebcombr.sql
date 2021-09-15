@@ -18,10 +18,10 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Banco de dados: `teste`
+-- Banco de dados: `gmelowebcombr`
 --
-CREATE DATABASE IF NOT EXISTS `teste` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
-USE `teste`;
+CREATE DATABASE IF NOT EXISTS `gmelowebcombr` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+USE `gmelowebcombr`;
 
 -- --------------------------------------------------------
 
