@@ -24,6 +24,10 @@ https://www.gmeloweb.com.br/backend-challenge-pleno/
 - Listagem de tarefas
 - listagem de colaboradores
 
+## Instalação do Banco de Dados
+
+- Importe o arquivo gmelowebcombr.sql para o seu banco localhost
+- Configure o arquivo config/database.php de acordo com as configurações do seu Apache
 
 ## Responsividade
 
