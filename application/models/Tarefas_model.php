@@ -40,11 +40,13 @@
         }
 
         public function adiciona_tarefa($dados){
+            $dados = $this->security->xss_clean($dados);
             return $this->db->insert('tarefas', $dados);
         }
 
         public function edit_tarefa($dados, $idTarefa){
             $this->db->where('id_tarefa', $idTarefa);
+            $dados = $this->security->xss_clean($dados);
             return $this->db->update('tarefas', $dados);
         }
 
@@ -52,9 +54,4 @@
             $this->db->where('id_tarefa', $idTarefa);
             return $this->db->delete('tarefas');
         }
-
-
-    
-    
-    
     }

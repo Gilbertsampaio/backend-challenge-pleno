@@ -34,9 +34,14 @@ include APPPATH . "/views/templates/header.php";
                             </thead>
                             <tbody>
                                 <?php
+                                $empty_array = $tarefas;
+
+                                if(empty($empty_array)){
+                                    echo "<tr><td colspan='6'>Não existem tarefas</td></tr>";
+                                }
+
                                 foreach ($tarefas as $tarefa) {
                                     $id = $tarefa["id_tarefa"];
-
 
                                     switch ($tarefa["prioridade"]) {
                                         case 1:
